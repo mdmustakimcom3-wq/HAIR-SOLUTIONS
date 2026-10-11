@@ -1,0 +1,744 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080807">
+
+  <title>Hair Solutions | Premium Men's Salon</title>
+  <meta name="description" content="Hair Solutions — আধুনিক হেয়ারকাট, গ্রুমিং, ফেসিয়াল ও প্রিমিয়াম সেলুন অভিজ্ঞতা। নেত্রকোণা সদর।">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ==========================================
+     HAIR SOLUTIONS WEBSITE
+     ছবি পরিবর্তন: প্রতিটি img-এর src পরিবর্তন করুন
+     নাম পরিবর্তন: সংশ্লিষ্ট h3 বা p পরিবর্তন করুন
+=========================================== -->
+
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Hair Solutions হোম">
+    <span class="brand-mark">HS</span>
+    <span class="brand-text">
+      <strong>HAIR <em>SOLUTIONS</em></strong>
+      <small>PREMIUM MEN'S GROOMING</small>
+    </span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="মেনু খুলুন" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="main-nav" id="mainNav">
+    <a href="#home">হোম</a>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#haircuts">হেয়ারকাট</a>
+    <a href="#services">সার্ভিস</a>
+    <a href="#team">আমাদের টিম</a>
+    <a href="#gallery">গ্যালারি</a>
+    <a class="nav-booking" href="https://wa.me/8801786938377" target="_blank" rel="noopener">বুকিং করুন ↗</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO SLIDER: ছবি পরিবর্তন করতে slide-এর img src পরিবর্তন করুন -->
+  <section class="hero" id="home">
+    <div class="hero-slides">
+      <div class="hero-slide active">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=2000&q=85" alt="প্রিমিয়াম বারবার শপ">
+      </div>
+      <div class="hero-slide">
+        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=2000&q=85" alt="আধুনিক হেয়ারকাট">
+      </div>
+      <div class="hero-slide">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=2000&q=85" alt="প্রফেশনাল গ্রুমিং">
+      </div>
+    </div>
+
+    <div class="hero-shade"></div>
+
+    <div class="hero-content container">
+      <span class="eyebrow"><i></i> THE ART OF MEN'S GROOMING</span>
+      <h1>আপনার স্টাইল।<br><em>আপনার স্বকীয়তা।</em></h1>
+      <p>
+        সাধারণ লুক থেকে অসাধারণ রূপান্তর।
+        আধুনিক হেয়ারকাট, প্রিমিয়াম গ্রুমিং এবং আপনার ব্যক্তিত্বের সঙ্গে মানানসই স্টাইল।
+      </p>
+
+      <div class="hero-actions">
+        <a class="button button-gold" href="https://wa.me/8801786938377?text=আসসালামু%20আলাইকুম%2C%20Hair%20Solutions-এ%20বুকিং%20করতে%20চাই।" target="_blank" rel="noopener">
+          অ্যাপয়েন্টমেন্ট নিন <span>↗</span>
+        </a>
+        <a class="button button-outline" href="#haircuts">আমাদের স্টাইল দেখুন ↓</a>
+      </div>
+
+      <div class="hero-pagination" aria-label="স্লাইড পরিবর্তন">
+        <button class="hero-dot active" data-slide="0" aria-label="প্রথম ছবি"></button>
+        <button class="hero-dot" data-slide="1" aria-label="দ্বিতীয় ছবি"></button>
+        <button class="hero-dot" data-slide="2" aria-label="তৃতীয় ছবি"></button>
+      </div>
+    </div>
+
+    <div class="hero-side-label">STYLE · PRECISION · CONFIDENCE</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section section-space" id="about">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <!-- নিজের ছবি দিতে শুধু এই src পরিবর্তন করুন -->
+        <img class="about-main-image" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1000&q=85" alt="Hair Solutions সেলুন">
+        <div class="about-image-label">
+          <span class="label-symbol">HS</span>
+          <span><strong>HAIR SOLUTIONS</strong><small>YOUR STYLE DESTINATION</small></span>
+        </div>
+        <div class="image-corner"></div>
+      </div>
+
+      <div class="about-copy">
+        <span class="eyebrow">WELCOME TO HAIR SOLUTIONS</span>
+        <h2>স্টাইলের নতুন অধ্যায়।<br><em>আত্মবিশ্বাসের নতুন রূপ।</em></h2>
+        <p>
+          Hair Solutions-এ আমরা বিশ্বাস করি, একটি সুন্দর হেয়ারকাট শুধু চেহারা বদলায় না,
+          আপনার আত্মবিশ্বাসও বাড়ায়। আপনার পছন্দ, ব্যক্তিত্ব ও স্টাইলকে গুরুত্ব দিয়ে
+          আমরা তৈরি করি আপনার জন্য মানানসই লুক।
+        </p>
+        <p>
+          আধুনিক হেয়ারকাট, দাড়ির পরিচর্যা, ফেসিয়াল এবং গ্রুমিং—সবকিছু এক জায়গায়।
+          আমাদের লক্ষ্য আপনাকে দিতে একটি আরামদায়ক ও যত্নশীল সেলুন অভিজ্ঞতা।
+        </p>
+        <a class="text-link" href="#services">আমাদের সার্ভিস দেখুন <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HAIRCUT STYLES -->
+  <section class="haircut-section section-space" id="haircuts">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">FIND YOUR SIGNATURE LOOK</span>
+          <h2>হেয়ারকাট <em>কালেকশন</em></h2>
+        </div>
+        <p>আপনার পছন্দের স্টাইল বেছে নিন। ছবিগুলো ডেমো—পরে নিজের আসল ছবি বসাতে পারবেন।</p>
+      </div>
+
+      <div class="filter-bar" aria-label="হেয়ারকাট ফিল্টার">
+        <button class="filter-button active" data-filter="all">সব স্টাইল</button>
+        <button class="filter-button" data-filter="fade">Fade</button>
+        <button class="filter-button" data-filter="classic">Classic</button>
+        <button class="filter-button" data-filter="modern">Modern</button>
+        <button class="filter-button" data-filter="long">Long Hair</button>
+        <button class="filter-button" data-filter="beard">Beard</button>
+      </div>
+
+      <div class="haircut-grid">
+
+        <!-- HAIRCUT CARD: ছবি বদলাতে img src, নাম বদলাতে h3 পরিবর্তন করুন -->
+        <article class="haircut-card" data-category="fade">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1400&q=85" aria-label="Low Fade বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80" alt="Low Fade hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>FADE COLLECTION</small><h3>Low Fade</h3><a class="booking-link" data-style="Low Fade" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="fade">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1400&q=85" aria-label="Mid Fade বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="Mid Fade hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>FADE COLLECTION</small><h3>Mid Fade</h3><a class="booking-link" data-style="Mid Fade" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="fade">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1400&q=85" aria-label="Taper Fade বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80" alt="Taper Fade hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>FADE COLLECTION</small><h3>Taper Fade</h3><a class="booking-link" data-style="Taper Fade" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="modern">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1400&q=85" aria-label="Textured Crop বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80" alt="Textured Crop hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>MODERN COLLECTION</small><h3>Textured Crop</h3><a class="booking-link" data-style="Textured Crop" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="classic">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1400&q=85" aria-label="Classic Side Part বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80" alt="Classic Side Part hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>CLASSIC COLLECTION</small><h3>Classic Side Part</h3><a class="booking-link" data-style="Classic Side Part" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="modern">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1593702295094-aea8c8b8e3c1?auto=format&fit=crop&w=1400&q=85" aria-label="Pompadour বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1593702295094-aea8c8b8e3c1?auto=format&fit=crop&w=800&q=80" alt="Pompadour hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>MODERN COLLECTION</small><h3>Pompadour</h3><a class="booking-link" data-style="Pompadour" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="classic">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1400&q=85" aria-label="Classic Cut বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80" alt="Classic haircut" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>CLASSIC COLLECTION</small><h3>Classic Cut</h3><a class="booking-link" data-style="Classic Cut" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="long">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1400&q=85" aria-label="Long Hair বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Long hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>LONG HAIR COLLECTION</small><h3>Long Hair</h3><a class="booking-link" data-style="Long Hair" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="modern">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1400&q=85" aria-label="Modern Style বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80" alt="Modern hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>MODERN COLLECTION</small><h3>Modern Style</h3><a class="booking-link" data-style="Modern Style" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="fade">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1400&q=85" aria-label="Crew Cut বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80" alt="Crew Cut" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>FADE COLLECTION</small><h3>Crew Cut</h3><a class="booking-link" data-style="Crew Cut" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="modern">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=1400&q=85" aria-label="Quiff বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=800&q=80" alt="Quiff hairstyle" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>MODERN COLLECTION</small><h3>Quiff</h3><a class="booking-link" data-style="Quiff" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+        <article class="haircut-card" data-category="beard">
+          <button class="card-image image-open" data-full="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1400&q=85" aria-label="Beard Styling বড় করে দেখুন">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80" alt="Beard styling" loading="lazy">
+            <span class="image-zoom">↗</span>
+          </button>
+          <div class="haircut-info"><small>GROOMING COLLECTION</small><h3>Beard Styling</h3><a class="booking-link" data-style="Beard Styling" href="#">এই স্টাইল বুক করুন ↗</a></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES: এখানে কোনো দাম নেই -->
+  <section class="services-section section-space" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">THE COMPLETE GROOMING EXPERIENCE</span>
+          <h2>আমাদের <em>সার্ভিস</em></h2>
+        </div>
+        <p>আপনার চুল, ত্বক ও ব্যক্তিত্বের যত্নে এক ছাদের নিচে নানা ধরনের গ্রুমিং সার্ভিস।</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-number">01</div>
+          <div class="service-icon">✂</div>
+          <h3>Premium Haircut</h3>
+          <p>আপনার মুখের গঠন ও পছন্দ অনুযায়ী আধুনিক ও ক্লাসিক হেয়ারকাট।</p>
+          <a class="booking-link" data-style="Premium Haircut" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">02</div>
+          <div class="service-icon">◈</div>
+          <h3>Beard Styling</h3>
+          <p>দাড়ি ট্রিম, শেপিং ও পরিচর্যার মাধ্যমে পরিপাটি লুক।</p>
+          <a class="booking-link" data-style="Beard Styling" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">03</div>
+          <div class="service-icon">✧</div>
+          <h3>Hair Wash & Styling</h3>
+          <p>চুল পরিষ্কার, পরিচর্যা এবং পছন্দমতো স্টাইলিং।</p>
+          <a class="booking-link" data-style="Hair Wash and Styling" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">04</div>
+          <div class="service-icon">❋</div>
+          <h3>Deep Cleansing Facial</h3>
+          <p>ত্বক পরিষ্কার ও সতেজ রাখার জন্য পরিচর্যা।</p>
+          <a class="booking-link" data-style="Deep Cleansing Facial" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">05</div>
+          <div class="service-icon">✦</div>
+          <h3>Hydrating Facial</h3>
+          <p>ত্বকের ধরন অনুযায়ী আর্দ্রতা ও পরিচর্যার সেবা।</p>
+          <a class="booking-link" data-style="Hydrating Facial" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">06</div>
+          <div class="service-icon">◇</div>
+          <h3>Charcoal Facial</h3>
+          <p>ত্বক পরিষ্কার রাখার জন্য উপযোগী ফেসিয়াল পরিচর্যা।</p>
+          <a class="booking-link" data-style="Charcoal Facial" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">07</div>
+          <div class="service-icon">✧</div>
+          <h3>Gold Facial</h3>
+          <p>প্রিমিয়াম ফেসিয়াল পরিচর্যার একটি বিশেষ অভিজ্ঞতা।</p>
+          <a class="booking-link" data-style="Gold Facial" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">08</div>
+          <div class="service-icon">❋</div>
+          <h3>Men's Facial</h3>
+          <p>পুরুষদের ত্বকের ধরন অনুযায়ী ফেসিয়াল পরিচর্যা।</p>
+          <a class="booking-link" data-style="Men's Facial" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">09</div>
+          <div class="service-icon">◉</div>
+          <h3>De-Tan Care</h3>
+          <p>রোদে প্রভাবিত ত্বকের পরিচর্যার জন্য উপযোগী সেবা।</p>
+          <a class="booking-link" data-style="De-Tan Care" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">10</div>
+          <div class="service-icon">✦</div>
+          <h3>Vitamin C Facial</h3>
+          <p>ত্বকের উপযোগিতা বিবেচনা করে ফেসিয়াল পরিচর্যা।</p>
+          <a class="booking-link" data-style="Vitamin C Facial" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">11</div>
+          <div class="service-icon">◇</div>
+          <h3>Hair Treatment</h3>
+          <p>চুলের ধরন অনুযায়ী পরিচর্যা ও স্টাইলিং।</p>
+          <a class="booking-link" data-style="Hair Treatment" href="#">বুকিং করুন ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">12</div>
+          <div class="service-icon">✧</div>
+          <h3>Complete Grooming</h3>
+          <p>পরিপাটি ও আত্মবিশ্বাসী লুকের জন্য সমন্বিত পরিচর্যা।</p>
+          <a class="booking-link" data-style="Complete Grooming" href="#">বুকিং করুন ↗</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE BANNER -->
+  <section class="statement-banner">
+    <img src="https://images.unsplash.com/photo-1593702295094-aea8c8b8e3c1?auto=format&fit=crop&w=2000&q=85" alt="প্রিমিয়াম হেয়ার স্টাইল" loading="lazy">
+    <div class="statement-overlay"></div>
+    <div class="statement-content container">
+      <span class="eyebrow">YOUR LOOK. YOUR RULES.</span>
+      <h2>একটি নতুন লুক।<br><em>একটি নতুন আত্মবিশ্বাস।</em></h2>
+      <a class="button button-gold" href="https://wa.me/8801786938377" target="_blank" rel="noopener">আপনার অ্যাপয়েন্টমেন্ট নিন ↗</a>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team-section section-space" id="team">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">MEET OUR PROFESSIONALS</span>
+          <h2>আমাদের <em>টিম</em></h2>
+        </div>
+        <p>আপনার স্টাইলের যত্নে আমাদের টিম। এখানে স্টাফদের আসল ছবি, নাম ও পদবি বসাতে পারবেন।</p>
+      </div>
+
+      <div class="team-grid">
+        <!-- স্টাফ ১: নিজের ছবি দিতে img src পরিবর্তন করুন -->
+        <article class="team-card">
+          <div class="team-photo"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="স্টাফ ১" loading="lazy"></div>
+          <div class="team-info"><small>MASTER BARBER</small><h3>স্টাফের নাম ০১</h3><p>হেয়ারকাট বিশেষজ্ঞ</p></div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=85" alt="স্টাফ ২" loading="lazy"></div>
+          <div class="team-info"><small>SENIOR BARBER</small><h3>স্টাফের নাম ০২</h3><p>ফেড ও আধুনিক স্টাইল</p></div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=85" alt="স্টাফ ৩" loading="lazy"></div>
+          <div class="team-info"><small>GROOMING ARTIST</small><h3>স্টাফের নাম ০৩</h3><p>দাড়ি ও গ্রুমিং</p></div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=85" alt="স্টাফ ৪" loading="lazy"></div>
+          <div class="team-info"><small>FACIAL CARE</small><h3>স্টাফের নাম ০৪</h3><p>ফেসিয়াল পরিচর্যা</p></div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo"><img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=700&q=85" alt="স্টাফ ৫" loading="lazy"></div>
+          <div class="team-info"><small>BARBER ARTIST</small><h3>স্টাফের নাম ০৫</h3><p>হেয়ার স্টাইলিং</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section class="gallery-section section-space" id="gallery">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">A GLIMPSE OF OUR WORLD</span>
+          <h2>আমাদের <em>গ্যালারি</em></h2>
+        </div>
+        <p>সেলুনের পরিবেশ, হেয়ারকাট ও গ্রুমিংয়ের ছবি দেখুন। ছবিতে ক্লিক করলে বড় করে দেখতে পারবেন।</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- গ্যালারির ছবি: img src এবং data-full দুটোতেই নতুন ছবির লিংক বসান -->
+        <button class="gallery-item image-open" data-full="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1600&q=85" aria-label="গ্যালারি ছবি ১ বড় করে দেখুন">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" alt="সেলুনের পরিবেশ" loading="lazy"><span>01 / SALON EXPERIENCE</span>
+        </button>
+        <button class="gallery-item image-open" data-full="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1600&q=85" aria-label="গ্যালারি ছবি ২ বড় করে দেখুন">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80" alt="হেয়ারকাট" loading="lazy"><span>02 / HAIR ART</span>
+        </button>
+        <button class="gallery-item image-open" data-full="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1600&q=85" aria-label="গ্যালারি ছবি ৩ বড় করে দেখুন">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80" alt="বারবারের কাজ" loading="lazy"><span>03 / PRECISION CUT</span>
+        </button>
+        <button class="gallery-item image-open" data-full="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1600&q=85" aria-label="গ্যালারি ছবি ৪ বড় করে দেখুন">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=80" alt="আধুনিক গ্রুমিং" loading="lazy"><span>04 / MODERN GROOMING</span>
+        </button>
+        <button class="gallery-item image-open" data-full="https://images.unsplash.com/photo-1593702295094-aea8c8b8e3c1?auto=format&fit=crop&w=1600&q=85" aria-label="গ্যালারি ছবি ৫ বড় করে দেখুন">
+          <img src="https://images.unsplash.com/photo-1593702295094-aea8c8b8e3c1?auto=format&fit=crop&w=900&q=80" alt="হেয়ার স্টাইলিং" loading="lazy"><span>05 / SIGNATURE STYLE</span>
+        </button>
+        <button class="gallery-item image-open" data-full="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1600&q=85" aria-label="গ্যালারি ছবি ৬ বড় করে দেখুন">
+          <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=900&q=80" alt="ক্লাসিক স্টাইল" loading="lazy"><span>06 / CLASSIC LOOK</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO GALLERY -->
+  <section class="video-section section-space" id="videos">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">WATCH OUR WORK</span>
+          <h2>ভিডিও <em>গ্যালারি</em></h2>
+        </div>
+        <p>নিজের সেলুনের ভিডিও যোগ করতে নিচের ডেমো ভিডিও কার্ডের লিংক পরিবর্তন করুন।</p>
+      </div>
+
+      <div class="video-grid">
+        <!-- YouTube ভিডিও যোগ করতে iframe-এর src-এ embed লিংক বসান -->
+        <div class="video-card">
+          <div class="video-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4" title="Hair Solutions video demo 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="video-info"><small>VIDEO 01</small><h3>আমাদের সেলুন পরিচিতি</h3></div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/ysz5S6PUM-U" title="Hair Solutions video demo 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="video-info"><small>VIDEO 02</small><h3>হেয়ারকাট ও স্টাইলিং</h3></div>
+        </div>
+      </div>
+      <p class="demo-note">ভিডিও দুটি ডেমো। প্রকাশের আগে নিজের YouTube ভিডিওর embed লিংক বসিয়ে নিন।</p>
+    </div>
+  </section>
+
+  <!-- BOOKING CTA -->
+  <section class="booking-banner">
+    <div class="container booking-banner-inner">
+      <div>
+        <span class="eyebrow">READY FOR A FRESH LOOK?</span>
+        <h2>আপনার পরবর্তী স্টাইল<br><em>শুরু হোক এখান থেকেই।</em></h2>
+        <p>পছন্দের সার্ভিস জানিয়ে WhatsApp-এ যোগাযোগ করুন।</p>
+      </div>
+      <a class="button button-gold button-large" href="https://wa.me/8801786938377?text=আসসালামু%20আলাইকুম%2C%20Hair%20Solutions-এ%20বুকিং%20করতে%20চাই।" target="_blank" rel="noopener">WhatsApp বুকিং ↗</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section section-space" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>যোগাযোগ <em>করুন</em></h2>
+        </div>
+        <p>আপনার পছন্দের স্টাইল বা অ্যাপয়েন্টমেন্টের জন্য আমাদের সঙ্গে যোগাযোগ করুন।</p>
+      </div>
+
+      <div class="contact-grid">
+        <article class="contact-card">
+          <span class="contact-icon">⌖</span>
+          <div><small>আমাদের ঠিকানা</small><h3>নেত্রকোণা সদর, নেত্রকোণা</h3><p>বাংলাদেশ</p></div>
+        </article>
+
+        <article class="contact-card">
+          <span class="contact-icon">↗</span>
+          <div><small>ফোন ও WhatsApp</small><h3>01786-938377</h3><a href="https://wa.me/8801786938377" target="_blank" rel="noopener">WhatsApp-এ যোগাযোগ করুন ↗</a></div>
+        </article>
+
+        <article class="contact-card">
+          <span class="contact-icon">f</span>
+          <div><small>Facebook</small><h3>Hair Solutions</h3><a href="https://www.facebook.com/share/1E6febdWRs/" target="_blank" rel="noopener">Facebook পেজ দেখুন ↗</a></div>
+        </article>
+      </div>
+
+      <div class="contact-bottom">
+        <p>আপনার নতুন লুকের জন্য আমরা অপেক্ষায় আছি।</p>
+        <a class="button button-gold" href="https://wa.me/8801786938377" target="_blank" rel="noopener">এখনই যোগাযোগ করুন ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-main">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">HS</span>
+      <span class="brand-text"><strong>HAIR <em>SOLUTIONS</em></strong><small>PREMIUM MEN'S GROOMING</small></span>
+    </a>
+
+    <p>আপনার স্টাইল, আমাদের যত্ন।</p>
+
+    <div class="footer-social">
+      <a href="https://www.facebook.com/share/1E6febdWRs/" target="_blank" rel="noopener">Facebook ↗</a>
+      <a href="https://wa.me/8801786938377" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="currentYear"></span> Hair Solutions. সর্বস্বত্ব সংরক্ষিত।</p>
+    <a href="#home">উপরে ফিরে যান ↑</a>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a class="whatsapp-float" href="https://wa.me/8801786938377" target="_blank" rel="noopener" aria-label="WhatsApp-এ যোগাযোগ করুন">
+  <span>WA</span>
+</a>
+
+<!-- IMAGE LIGHTBOX -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="বড় ছবি">
+  <button class="lightbox-close" id="lightboxClose" aria-label="বন্ধ করুন">×</button>
+  <button class="lightbox-prev" id="lightboxPrev" aria-label="আগের ছবি">‹</button>
+  <img id="lightboxImage" src="" alt="গ্যালারির বড় ছবি">
+  <button class="lightbox-next" id="lightboxNext" aria-label="পরের ছবি">›</button>
+  <p id="lightboxCaption"></p>
+</div>
+
+<script>
+  // =========================================
+  // 1. MOBILE NAVIGATION
+  // =========================================
+  const menuToggle = document.getElementById("menuToggle");
+  const mainNav = document.getElementById("mainNav");
+
+  menuToggle.addEventListener("click", () => {
+    const isOpen = mainNav.classList.toggle("open");
+    menuToggle.classList.toggle("active", isOpen);
+    menuToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  mainNav.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      mainNav.classList.remove("open");
+      menuToggle.classList.remove("active");
+      menuToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+
+  // =========================================
+  // 2. AUTOMATIC HERO SLIDER
+  // ছবি পরিবর্তনের সময়: 5000 = 5 সেকেন্ড
+  // =========================================
+  const heroSlides = [...document.querySelectorAll(".hero-slide")];
+  const heroDots = [...document.querySelectorAll(".hero-dot")];
+  let currentSlide = 0;
+  let sliderTimer;
+
+  function showHeroSlide(index) {
+    currentSlide = (index + heroSlides.length) % heroSlides.length;
+    heroSlides.forEach((slide, i) => slide.classList.toggle("active", i === currentSlide));
+    heroDots.forEach((dot, i) => dot.classList.toggle("active", i === currentSlide));
+  }
+
+  function startHeroSlider() {
+    clearInterval(sliderTimer);
+    sliderTimer = setInterval(() => showHeroSlide(currentSlide + 1), 5000);
+  }
+
+  heroDots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      showHeroSlide(index);
+      startHeroSlider();
+    });
+  });
+
+  startHeroSlider();
+
+  // =========================================
+  // 3. HAIRCUT FILTERS
+  // =========================================
+  const filterButtons = document.querySelectorAll(".filter-button");
+  const haircutCards = document.querySelectorAll(".haircut-card");
+
+  filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      filterButtons.forEach(item => item.classList.remove("active"));
+      button.classList.add("active");
+
+      const filter = button.dataset.filter;
+
+      haircutCards.forEach(card => {
+        const matches = filter === "all" || card.dataset.category === filter;
+        card.hidden = !matches;
+      });
+    });
+  });
+
+  // =========================================
+  // 4. WHATSAPP BOOKING
+  // সার্ভিস বুকিংয়ে ক্লিক করলে নামসহ মেসেজ যাবে
+  // =========================================
+  document.querySelectorAll(".booking-link").forEach(link => {
+    link.addEventListener("click", event => {
+      event.preventDefault();
+
+      const serviceName = link.dataset.style;
+      const message = encodeURIComponent(
+        "আসসালামু আলাইকুম, Hair Solutions-এ " +
+        serviceName +
+        " সার্ভিসের জন্য বুকিং করতে চাই।"
+      );
+
+      window.open(
+        "https://wa.me/8801786938377?text=" + message,
+        "_blank",
+        "noopener"
+      );
+    });
+  });
+
+  // =========================================
+  // 5. IMAGE LIGHTBOX
+  // গ্যালারির ছবি বড় করে দেখা ও পরের/আগের ছবি
+  // =========================================
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImage = document.getElementById("lightboxImage");
+  const lightboxCaption = document.getElementById("lightboxCaption");
+  const lightboxClose = document.getElementById("lightboxClose");
+  const lightboxPrev = document.getElementById("lightboxPrev");
+  const lightboxNext = document.getElementById("lightboxNext");
+
+  let lightboxItems = [];
+  let lightboxIndex = 0;
+  let lastFocusedElement = null;
+
+  function collectImages() {
+    return [...document.querySelectorAll(".image-open")].filter(item => {
+      const image = item.querySelector("img");
+      return image && !item.closest("[hidden]") && !item.closest(".haircut-card[hidden]");
+    });
+  }
+
+  function renderLightboxImage() {
+    if (!lightboxItems.length) return;
+
+    const item = lightboxItems[lightboxIndex];
+    const thumbnail = item.querySelector("img");
+
+    lightboxImage.src = item.dataset.full || thumbnail.src;
+    lightboxImage.alt = thumbnail.alt || "গ্যালারির ছবি";
+    lightboxCaption.textContent = thumbnail.alt || "";
+  }
+
+  function openLightbox(item) {
+    lightboxItems = collectImages();
+    lightboxIndex = lightboxItems.indexOf(item);
+
+    if (lightboxIndex < 0) {
+      lightboxItems = [item];
+      lightboxIndex = 0;
+    }
+
+    lastFocusedElement = document.activeElement;
+    renderLightboxImage();
+    lightbox.hidden = false;
+    document.body.classList.add("lightbox-open");
+    lightboxClose.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImage.src = "";
+    document.body.classList.remove("lightbox-open");
+
+    if (lastFocusedElement) lastFocusedElement.focus();
+  }
+
+  function moveLightbox(step) {
+    if (!lightboxItems.length) return;
+    lightboxIndex = (lightboxIndex + step + lightboxItems.length) % lightboxItems.length;
+    renderLightboxImage();
+  }
+
+  document.querySelectorAll(".image-open").forEach(item => {
+    item.addEventListener("click", () => openLightbox(item));
+  });
+
+  lightboxClose.addEventListener("click", closeLightbox);
+  lightboxPrev.addEventListener("click", () => moveLightbox(-1));
+  lightboxNext.addEventListener("click", () => moveLightbox(1));
+
+  lightbox.addEventListener("click", event => {
+    if (event.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener("keydown", event => {
+    if (lightbox.hidden) return;
+
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowLeft") moveLightbox(-1);
+    if (event.key === "ArrowRight") moveLightbox(1);
+  });
+
+  // =========================================
+  // 6. CURRENT YEAR
+  // =========================================
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+dr
